@@ -58,7 +58,7 @@ namespace Exercicio_Animal
         {
             Capacidade_Estomago = Ce;
         }
-
+        // Contrutor
         public Animal(string N, DateTime Dt, float Pe, float Ce)
         {
             Nome = N;
@@ -72,6 +72,7 @@ namespace Exercicio_Animal
 
         }
 
+        /*
         
         public int GetData_Ano()
         {
@@ -83,6 +84,8 @@ namespace Exercicio_Animal
             this.Data_Ano = Data_Ano;
         }
 
+        /*/
+
         // Retorna Idade
         public int RetornaIdade()
         {
@@ -92,7 +95,6 @@ namespace Exercicio_Animal
 
             DateTime Hoje = new DateTime();
             Hoje = DateTime.Today;
-
             Ano_Nasc = this.DataNascimento.Year;
             Ano_Atual = Hoje.Year;
 
@@ -100,30 +102,26 @@ namespace Exercicio_Animal
             
             return Idade;
 
+            
         }
 
+        public bool  Comer(float qtd)
+        {
+            
+            if (qtd <= Capacidade_Estomago)
+            {
+                Capacidade_Estomago -= qtd;
+                return true;
+            }
+            else
+            {
+                Console.WriteLine(" Animal cheio");
+                    return false;
+                }
+            }
+            
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+           
 
 
 

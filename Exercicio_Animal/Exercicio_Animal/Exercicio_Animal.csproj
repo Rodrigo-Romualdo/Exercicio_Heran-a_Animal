@@ -44,6 +44,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Animal.cs" />
+    <Compile Include="Cachorro.cs" />
+    <Compile Include="Curio.cs" />
+    <Compile Include="Gato.cs" />
+    <Compile Include="Gaviao.cs" />
+    <Compile Include="Mamifero.cs" />
+    <Compile Include="Passaro.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
