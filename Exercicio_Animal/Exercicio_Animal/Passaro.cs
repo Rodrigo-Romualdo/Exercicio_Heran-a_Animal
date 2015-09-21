@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Exercicio_Animal
 {
-    class Passaro : Animal
+    abstract class Passaro : Animal
     {
         private float VelocidadeVoo;
 

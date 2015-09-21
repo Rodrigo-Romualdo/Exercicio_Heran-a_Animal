@@ -11,8 +11,7 @@ namespace Exercicio_Animal
         static void Main(string[] args)
         {
 
-            // Teste
-            Animal Teste = new Animal("Fargield", new DateTime(2010, 10, 02), 25, 30);
+           
 
             // chamar o gaviao
             Gaviao Gav = new Gaviao(10.5f ,"Coritians", new DateTime(2013, 10, 02), 10, 30);
@@ -23,7 +22,7 @@ namespace Exercicio_Animal
             }
             else
             {
-                Console.WriteLine(" {0} tem capacidade de : {1} ", Teste.GetNome(), Teste.GetCapacidade_Estomago());
+                Console.WriteLine(" {0} tem capacidade de : {1} ", Gav.GetNome(), Gav.GetCapacidade_Estomago());
             }
 
             Console.WriteLine("A idade do Gav é " + Gav.RetornaIdade());

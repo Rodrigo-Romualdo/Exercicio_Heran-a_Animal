@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Exercicio_Animal
 {
-    class Animal
+    abstract class Animal 
     {
         // Criano Uma lista
         List<Animal> Lista_Animal = new List<Animal>();

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Exercicio_Animal
 {
-    class Mamifero : Animal
+    abstract class Mamifero : Animal
     {
         // cachorro e Gato vai herda dessa classe
 
