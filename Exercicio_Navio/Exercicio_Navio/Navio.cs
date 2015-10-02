@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Exercicio_Navio
 {
     enum EstadoNavio { Inoperante, MuitoDanificado, Danificado, Perfeito };
-    // CLass PAI
+    // CLass PAI  teste
     class Navio
     {
         private string Nome;
